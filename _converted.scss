@@ -1,22 +1,22 @@
 
 // Converted Variables
 
-$Button-paddingH-xl: $g-controlsSpaceH-xl !default;
-$Button-paddingH-lg: $g-controlsSpaceH-lg !default;
-$Button-paddingH: $g-controlsSpaceH !default;
-$Button-paddingH-sm: $g-controlsSpaceH-sm !default;
-$Button-fontSize-xl: $g-fontSize-xl !default;
-$Button-fontSize-lg: $g-fontSize-lg !default;
-$Button-fontSize: $g-fontSize !default;
-$Button-fontSize-sm: $g-fontSize-sm !default;
-$Button-borderRadius-xl: $g-borderRadius-xl !default;
-$Button-borderRadius-lg: $g-borderRadius-lg !default;
-$Button-borderRadius: $g-borderRadius !default;
-$Button-borderRadius-sm: $g-borderRadius-sm !default;
-$Button-height-xl: $g-controlsHeight-xl !default;
-$Button-height-lg: $g-controlsHeight-lg !default;
-$Button-height: $g-controlsHeight !default;
-$Button-height-sm: $g-controlsHeight-sm !default;
+$ButtonSize-paddingH-xl: $g-controlsSpaceH-xl !default;
+$ButtonSize-paddingH-lg: $g-controlsSpaceH-lg !default;
+$ButtonSize-paddingH: $g-controlsSpaceH !default;
+$ButtonSize-paddingH-sm: $g-controlsSpaceH-sm !default;
+$ButtonSize-fontSize-xl: $g-fontSize-xl !default;
+$ButtonSize-fontSize-lg: $g-fontSize-lg !default;
+$ButtonSize-fontSize: $g-fontSize !default;
+$ButtonSize-fontSize-sm: $g-fontSize-sm !default;
+$ButtonSize-borderRadius-xl: $g-borderRadius-xl !default;
+$ButtonSize-borderRadius-lg: $g-borderRadius-lg !default;
+$ButtonSize-borderRadius: $g-borderRadius !default;
+$ButtonSize-borderRadius-sm: $g-borderRadius-sm !default;
+$ButtonSize-height-xl: $g-controlsHeight-xl !default;
+$ButtonSize-height-lg: $g-controlsHeight-lg !default;
+$ButtonSize-height: $g-controlsHeight !default;
+$ButtonSize-height-sm: $g-controlsHeight-sm !default;
 
 // Custom Media Query Variables
 
@@ -25,25 +25,25 @@ $Button-height-sm: $g-controlsHeight-sm !default;
 ======================================== */
 
 .Button--xl {
-  height: $Button-height-xl;
-  padding: 0 $Button-paddingH-xl;
-  line-height: ($Button-height-xl - calc($Button-borderSize * 2));
-  font-size: $Button-fontSize-xl;
-  border-radius: $Button-borderRadius-xl;
+  height: $ButtonSize-height-xl;
+  padding: 0 $ButtonSize-paddingH-xl;
+  line-height: ($ButtonSize-height-xl - calc($Button-borderSize * 2));
+  font-size: $ButtonSize-fontSize-xl;
+  border-radius: $ButtonSize-borderRadius-xl;
 }
 .Button--lg {
-  height: $Button-height-lg;
-  padding: 0 $Button-paddingH-lg;
-  line-height: ($Button-height-lg - calc($Button-borderSize * 2));
-  font-size: $Button-fontSize-lg;
-  border-radius: $Button-borderRadius-lg;
+  height: $ButtonSize-height-lg;
+  padding: 0 $ButtonSize-paddingH-lg;
+  line-height: ($ButtonSize-height-lg - calc($Button-borderSize * 2));
+  font-size: $ButtonSize-fontSize-lg;
+  border-radius: $ButtonSize-borderRadius-lg;
 }
 .Button--sm {
-  height: $Button-height-sm;
-  padding: 0 $Button-paddingH-sm;
-  line-height: ($Button-height-sm - calc($Button-borderSize * 2));
-  font-size: $Button-fontSize-sm;
-  border-radius: $Button-borderRadius-sm;
+  height: $ButtonSize-height-sm;
+  padding: 0 $ButtonSize-paddingH-sm;
+  line-height: ($ButtonSize-height-sm - calc($Button-borderSize * 2));
+  font-size: $ButtonSize-fontSize-sm;
+  border-radius: $ButtonSize-borderRadius-sm;
 }
 
 
