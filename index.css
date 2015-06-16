@@ -1,0 +1,56 @@
+:root {
+  --Button-paddingH-xl: var(--g-controlsSpaceH-xl);
+  --Button-paddingH-lg: var(--g-controlsSpaceH-lg);
+  --Button-paddingH: var(--g-controlsSpaceH);
+  --Button-paddingH-sm: var(--g-controlsSpaceH-sm);
+
+  --Button-fontSize-xl: var(--g-fontSize-xl);
+  --Button-fontSize-lg: var(--g-fontSize-lg);
+  --Button-fontSize: var(--g-fontSize);
+  --Button-fontSize-sm: var(--g-fontSize-sm);
+
+  --Button-borderRadius-xl: var(--g-borderRadius-xl);
+  --Button-borderRadius-lg: var(--g-borderRadius-lg);
+  --Button-borderRadius: var(--g-borderRadius);
+  --Button-borderRadius-sm: var(--g-borderRadius-sm);
+
+  --Button-height-xl: var(--g-controlsHeight-xl);
+  --Button-height-lg: var(--g-controlsHeight-lg);
+  --Button-height: var(--g-controlsHeight);
+  --Button-height-sm: var(--g-controlsHeight-sm);
+}
+
+
+/*　sircus-components-button-size
+======================================== */
+
+.Button--xl {
+  height: var(--Button-height-xl);
+  padding: 0 var(--Button-paddingH-xl);
+  line-height: calc(var(--Button-height-xl) - calc(var(--Button-borderSize) * 2));
+  font-size: var(--Button-fontSize-xl);
+  border-radius: var(--Button-borderRadius-xl);
+}
+.Button--lg {
+  height: var(--Button-height-lg);
+  padding: 0 var(--Button-paddingH-lg);
+  line-height: calc(var(--Button-height-lg) - calc(var(--Button-borderSize) * 2));
+  font-size: var(--Button-fontSize-lg);
+  border-radius: var(--Button-borderRadius-lg);
+}
+.Button--sm {
+  height: var(--Button-height-sm);
+  padding: 0 var(--Button-paddingH-sm);
+  line-height: calc(var(--Button-height-sm) - calc(var(--Button-borderSize) * 2));
+  font-size: var(--Button-fontSize-sm);
+  border-radius: var(--Button-borderRadius-sm);
+}
+
+
+.Button--full {
+  display: block;
+  width: 100%;
+}
+.Button--full + .Button--full {
+  margin-top: var(--g-space-mi)
+}

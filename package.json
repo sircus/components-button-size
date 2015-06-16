@@ -1,0 +1,31 @@
+{
+  "name": "sircus-components-button-size",
+  "description": "A Button component Module of Sircus.",
+  "version": "0.0.1",
+  "homepage": "http://sircus.github.io",
+  "keywords": [
+    "scalability",
+    "maintainability",
+    "designability",
+    "css"
+  ],
+  "author": {
+    "name": "Yasuyuki Enomoto",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sircus/components-button-size.git"
+  },
+  "scripts": {
+    "build": "css2scss ./index.css ./_converted.scss"
+  },
+  "dependencies": {
+    "sircus-components-button": ">=0.0.1",
+    "sircus-global-property": ">=0.0.1"
+  },
+  "devDependencies": {
+    "sircus-process-css2scss": "^0.2.0"
+  }
+}
