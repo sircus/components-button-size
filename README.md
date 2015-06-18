@@ -2,37 +2,35 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-components-button-size.svg?style=flat)](https://www.npmjs.com/package/sircus-components-button-size)
 
-> A size modifire module for Sircus Button component.
-
 ## Dependencies
-- [sircus-global-proprety](https://github.com/sircus/global-property)
+- [sircus-global-property](https://github.com/sircus/global-property)
 - [sircus-components-button](https://github.com/sircus/components-button)
 
 
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
-$ npm install sircus-components-button-size sircus-global-proprety sircus-components-button
+$ npm install sircus-components-button-size sircus-global-property sircus-components-button
 ```
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-components-button";
 @import "sircus-components-button-size";
-@import "sircus-global-proprety";
+@import "sircus-global-property";
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-global-proprety/converted";
+```scss
+@import "node_modules/sircus-global-property/converted";
 @import "node_modules/sircus-components-button/converted";
 @import "node_modules/sircus-components-button-size/converted";
 ```
