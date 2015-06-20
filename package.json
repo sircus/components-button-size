@@ -1,13 +1,14 @@
 {
   "name": "sircus-components-button-size",
-  "description": "A Button component Module of Sircus.",
+  "description": "css size modifier module for Sircus Button component.",
   "version": "0.0.1",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalability",
-    "maintainability",
-    "designability",
-    "css"
+    "scalabe",
+    "design",
+    "css",
+    "cssnext",
+    "rwd"
   ],
   "author": {
     "name": "Yasuyuki Enomoto",
@@ -23,7 +24,7 @@
   },
   "dependencies": {
     "sircus-components-button": ">=0.0.1",
-    "sircus-global-property": ">=0.0.1"
+    "sircus-global-property": "^0.1.2"
   },
   "devDependencies": {
     "sircus-process-css2scss": "^0.2.0"
