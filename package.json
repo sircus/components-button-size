@@ -1,10 +1,10 @@
 {
   "name": "sircus-components-button-size",
-  "description": "css size modifier module for Sircus Button component.",
-  "version": "0.0.1",
+  "description": "Modifier module for manage the size of Sircus Button components",
+  "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalabe",
+    "scalable",
     "design",
     "css",
     "cssnext",
