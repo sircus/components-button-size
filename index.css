@@ -1,8 +1,8 @@
 :root {
-  --ButtonSize-paddingH-xl: var(--g-controlsSpaceH-xl);
-  --ButtonSize-paddingH-lg: var(--g-controlsSpaceH-lg);
-  --ButtonSize-paddingH: var(--g-controlsSpaceH);
-  --ButtonSize-paddingH-sm: var(--g-controlsSpaceH-sm);
+  --ButtonSize-paddingH-xl: var(--g-controls-spaceH-xl);
+  --ButtonSize-paddingH-lg: var(--g-controls-spaceH-lg);
+  --ButtonSize-paddingH: var(--g-controls-spaceH);
+  --ButtonSize-paddingH-sm: var(--g-controls-spaceH-sm);
 
   --ButtonSize-fontSize-xl: var(--g-fontSize-xl);
   --ButtonSize-fontSize-lg: var(--g-fontSize-lg);
@@ -14,10 +14,10 @@
   --ButtonSize-borderRadius: var(--g-borderRadius);
   --ButtonSize-borderRadius-sm: var(--g-borderRadius-sm);
 
-  --ButtonSize-height-xl: var(--g-controlsHeight-xl);
-  --ButtonSize-height-lg: var(--g-controlsHeight-lg);
-  --ButtonSize-height: var(--g-controlsHeight);
-  --ButtonSize-height-sm: var(--g-controlsHeight-sm);
+  --ButtonSize-height-xl: var(--g-controls-height-xl);
+  --ButtonSize-height-lg: var(--g-controls-height-lg);
+  --ButtonSize-height: var(--g-controls-height);
+  --ButtonSize-height-sm: var(--g-controls-height-sm);
 
   --ButtonSize-borderSize2x: calc(var(--Button-borderSize) * 2);
 
