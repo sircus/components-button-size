@@ -21,8 +21,6 @@
 
   --ButtonSize-borderSize2x: calc(var(--Button-borderSize) * 2);
 
-  --ButtonSize-full-space: var(--g-space-mi);
-
 }
 
 
@@ -52,10 +50,4 @@
 }
 
 
-.Button--full {
-  display: block;
-  width: 100%;
-}
-.Button--full + .Button--full {
-  margin-top: var(--ButtonSize-full-space);
 }

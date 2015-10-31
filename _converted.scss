@@ -18,7 +18,6 @@ $ButtonSize-height-lg: $g-controls-height-lg !default;
 $ButtonSize-height: $g-controls-height !default;
 $ButtonSize-height-sm: $g-controls-height-sm !default;
 $ButtonSize-borderSize2x: ($Button-borderSize * 2) !default;
-$ButtonSize-full-space: $g-space-mi !default;
 
 
 /*　sircus-components-button-size
@@ -47,10 +46,4 @@ $ButtonSize-full-space: $g-space-mi !default;
 }
 
 
-.Button--full {
-  display: block;
-  width: 100%;
-}
-.Button--full + .Button--full {
-  margin-top: $ButtonSize-full-space;
 }
