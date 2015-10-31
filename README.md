@@ -37,7 +37,6 @@ input.scss
 <button class="Button Button--sm">Small</button>
 <a class="Button Button--lg" href="#">Large</a>
 <a class="Button Button--xl" href="#">Extra large</a>
-<a class="Button Button--full" href="#">full width</a>
 ```
 
 
