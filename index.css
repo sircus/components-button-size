@@ -9,18 +9,10 @@
   --ButtonSize-fontSize: var(--g-fontSize);
   --ButtonSize-fontSize-sm: var(--g-fontSize-sm);
 
-  --ButtonSize-borderRadius-xl: var(--g-borderRadius-xl);
-  --ButtonSize-borderRadius-lg: var(--g-borderRadius-lg);
-  --ButtonSize-borderRadius: var(--g-borderRadius);
-  --ButtonSize-borderRadius-sm: var(--g-borderRadius-sm);
-
   --ButtonSize-height-xl: var(--g-controls-height-xl);
   --ButtonSize-height-lg: var(--g-controls-height-lg);
   --ButtonSize-height: var(--g-controls-height);
   --ButtonSize-height-sm: var(--g-controls-height-sm);
-
-  --ButtonSize-borderSize2x: calc(var(--Button-borderSize) * 2);
-
 }
 
 
@@ -32,22 +24,16 @@
   padding: 0 var(--ButtonSize-paddingH-xl);
   line-height: calc(var(--ButtonSize-height-xl) - var(--Button-borderSize2x));
   font-size: var(--ButtonSize-fontSize-xl);
-  border-radius: var(--ButtonSize-borderRadius-xl);
 }
 .Button--lg {
   height: var(--ButtonSize-height-lg);
   padding: 0 var(--ButtonSize-paddingH-lg);
   line-height: calc(var(--ButtonSize-height-lg) - var(--Button-borderSize2x));
   font-size: var(--ButtonSize-fontSize-lg);
-  border-radius: var(--ButtonSize-borderRadius-lg);
 }
 .Button--sm {
   height: var(--ButtonSize-height-sm);
   padding: 0 var(--ButtonSize-paddingH-sm);
   line-height: calc(var(--ButtonSize-height-sm) - var(--Button-borderSize2x));
   font-size: var(--ButtonSize-fontSize-sm);
-  border-radius: var(--ButtonSize-borderRadius-sm);
-}
-
-
 }
